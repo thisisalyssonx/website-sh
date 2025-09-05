@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import {
   ChevronLeft,
   ChevronRight,
@@ -12,6 +12,7 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
 // Imports organizados em ordem alfabética
 import allysonPiresImg from "../assets/members/alyssonoliveirapires.jpg";
 import alyssonRodriguesImg from "../assets/members/alyssonrodrigues.jpg";
+import amandaSouzaImg from "../assets/members/amandasouza.jpg";
 import anaVitoriaImg from "../assets/members/anavitoria.jpg";
 import arthurGuerraImg from "../assets/members/arthurguerra.jpg";
 import augustoCesarImg from "../assets/members/augustocesar.jpg";
@@ -31,9 +32,11 @@ import mateusVerissimoImg from "../assets/members/mateusverissimo.jpg";
 import pauloSergioImg from "../assets/members/paulosergiocosta.jpg";
 import pedroVelosoImg from "../assets/members/pedrovictorsantosveloso.jpg";
 import rafaelSilvaImg from "../assets/members/rafaelsousa.jpg";
+import renanPiresImg from "../assets/members/renanpires.jpg";
 import richardsonFrancaImg from "../assets/members/richardsonfrança.jpg";
 import stephanieAdrianeImg from "../assets/members/stephanieadriane.jpg";
 import thiagoAkiraImg from "../assets/members/thiagoakira.jpg";
+import wesleySilvaImg from "../assets/members/wesleysilva.jpg";
 
 // Interface para tipagem do membro
 interface Member {
@@ -97,11 +100,23 @@ const Members: React.FC = () => {
       linkedin: "https://www.linkedin.com/in/thisisalysson/",
     },
     {
+      id: 21,
+      name: "Amanda Carvalho de Souza",
+      role: "Engenharia de Software | Inovação | Gestão de Negócios",
+      image: amandaSouzaImg, // <- Lembre-se de definir esta variável para a imagem
+      bio: "Sou engenheira de software com experiência em inovação e gestão de projetos de tecnologia. Atuo com metodologias ágeis e ferramentas de inovação, apoiando a transformação digital de organizações públicas e privadas. Atualmente curso MBA em Gestão de Negócios, ampliando minha atuação no desenvolvimento de estratégias inovadoras e sustentáveis.",
+      location: "São Luís, MA",
+      email: "Souza.amandacv@gmail.com",
+      skills: ["Metodologias Ágeis (Scrum, Kanban)", "Design Thinking & Lean Inception", "Gestão por Processos e Inovação"],
+      github: "",
+      linkedin: "http://linkedin.com/in/amanda-carvalho-7b8373218",
+    },
+    {
       id: 5,
       name: "Ana Vitória Maciel Rodrigues",
       role: "Marketing e Dev Back-end",
       image: anaVitoriaImg,
-      bio: "Vice-Diretora de Marketing e Programadora Back-end com experiência prática no desenvolvimento de soluções em Java e Python.",
+      bio: "Programadora Back-end com experiência prática no desenvolvimento de soluções em Java e Python.",
       location: "São Luís, MA",
       email: "anavitoriamacielr@gmail.com",
       skills: ["Java", "Python", "JavaScript", "Excel"],
@@ -335,6 +350,18 @@ const Members: React.FC = () => {
       linkedin: "https://www.linkedin.com/in/rafael-silva-664359218",
     },
     {
+      id: 25,
+      name: "Renan Pires Silva",
+      role: "Design Gráfico ",
+      image: renanPiresImg,
+      bio: "Meu nome é renan, trabalho com design gráfico e criação de identidade visual.",
+      location: "São Luís, MA",
+      email: "rspgameplay@gmail.com",
+      skills: ["Photoshop", "Illustrator", "After Effects"],
+      github: "https://github.com/rspgameplay-ui",
+      linkedin: "https://www.linkedin.com/in/renan-pires-9b4b7925b",
+    },
+    {
       id: 21,
       name: "Richardson França Serena",
       role: "Desenvolvimento Full Stack",
@@ -371,6 +398,18 @@ const Members: React.FC = () => {
       github: "https://github.com/AkiraGitDev",
       linkedin: "https://www.linkedin.com/in/akiradeveloper/",
     },
+    {
+    id: 20,
+    name: "Wesley Silva Gomes",
+    role: "DevOps | MLOps | Cloud & IA Generativa",
+    image: wesleySilvaImg, 
+    bio: "Engenheiro de Software apaixonado por tecnologia, com foco em MLOps, Cloud e Inteligência Artificial. Experiência em arquiteturas escaláveis, automação e soluções baseadas em IA generativa.",
+    location: "São Luís, MA",
+    email: "wesley.diegogomre@hotmail.com",
+    skills: ["Python", "Docker", "AWS"],
+    github: "https://github.com/WesDevss",
+    linkedin: "https://www.linkedin.com/in/wesley-silva-gomes-9bb195259/",
+    },
   ];
 
   // Constantes extraídas
@@ -380,7 +419,7 @@ const Members: React.FC = () => {
 
   // Estatísticas do time
   const teamStats: TeamStat[] = [
-    { number: "30+", label: "Desenvolvedores Talentosos", color: "#65C2CA" },
+    { number: "20+", label: "Desenvolvedores Talentosos", color: "#65C2CA" },
     { number: "5+", label: "Mentores", color: "#010DAD" },
     { number: "5+", label: "Anos de Experiência", color: "#E92BA6" },
     { number: "100%", label: "Dedicação e Paixão", color: "#141414" },
