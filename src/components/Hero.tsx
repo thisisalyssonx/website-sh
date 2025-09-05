@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="relative">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 animate-fade-in relative">
-            <span className="relative z-10">Software House</span>
+            <span className="relative z-10">Software House UNDB</span>
             <div className="absolute inset-0 text-white/20 blur-sm scale-105 animate-glow">Software House</div>
           </h1>
         </div>

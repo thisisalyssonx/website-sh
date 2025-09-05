@@ -37,7 +37,7 @@ const About: React.FC = () => {
 
   const stats = [
     { number: '10+', label: 'Projetos Desenvolvidos', icon: <Rocket className="h-6 w-6" /> },
-    { number: '20+', label: 'Alunos em Projetos', icon: <Award className="h-6 w-6" /> },
+    { number: '30+', label: 'Alunos em Projetos', icon: <Award className="h-6 w-6" /> },
     { number: '20+', label: 'Tecnologias Utilizadas', icon: <Zap className="h-6 w-6" /> },
     { number: '5', label: 'Anos de Experiência', icon: <Heart className="h-6 w-6" /> }
   ];
@@ -83,17 +83,14 @@ const About: React.FC = () => {
         >
           <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-500 hover:scale-105">
             <p className="text-xl text-gray-700 leading-relaxed mb-8 relative">
-              A UNDB Software House é o núcleo de desenvolvimento de software da Universidade Dom Bosco, 
-              onde alunos criam soluções reais para o mercado sob orientação especializada dos professores.
+              A Software House UNDB é um espaço da Escola de Tecnologia da UNDB que simula uma fábrica de software real. É composta por alunos da Escola de Tecnologia e de outros cursos do Centro Universitário UNDB que criam soluções reais para o mercado sob orientação especializada de professores.
               <span className="absolute -top-2 -left-2 text-blue-300 opacity-50">
                 <Code className="h-6 w-6" />
               </span>
             </p>
             
             <p className="text-lg text-gray-600 leading-relaxed">
-              Nosso objetivo é formar profissionais capacitados através da experiência prática, 
-              desenvolvendo projetos que impactam positivamente a comunidade acadêmica e o ecossistema 
-              tecnológico de São Luís - MA.
+              Nosso objetivo é formar profissionais capacitados por meio da experiência prática, desenvolvendo projetos que impactam positivamente a comunidade acadêmica, externa e o ecossistema tecnológico de São Luís - MA.
             </p>
           </div>
         </div>

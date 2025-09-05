@@ -76,7 +76,7 @@ const Header: React.FC = () => {
             <span className={`font-bold text-lg transition-colors ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Software House
+              Software House UNDB
             </span>
           </Link>
 

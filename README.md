@@ -1,4 +1,4 @@
-# UNDB Software House
+# Software House UNDB
 
 > Portal oficial da iniciativa acadêmica onde transformamos conhecimento em soluções reais e preparamos nossos membros para os desafios do mercado de tecnologia.
 
@@ -137,9 +137,9 @@ src/
 
 ## 👥 Equipe
 
-Desenvolvido pelos membros da UNDB Software House
+Desenvolvido pelos membros da Software House UNDB
 
 
 ---
 
-**UNDB Software House** - Transformando conhecimento em soluções reais
+**Software House UNDB** - Transformando conhecimento em soluções reais

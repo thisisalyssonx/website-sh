@@ -101,7 +101,7 @@ const Members: React.FC = () => {
       name: "Ana Vitória Maciel Rodrigues",
       role: "Marketing e Dev Back-end",
       image: anaVitoriaImg,
-      bio: "Programadora Back-end com experiência prática no desenvolvimento de soluções em Java e Python.",
+      bio: "Vice-Diretora de Marketing e Programadora Back-end com experiência prática no desenvolvimento de soluções em Java e Python.",
       location: "São Luís, MA",
       email: "anavitoriamacielr@gmail.com",
       skills: ["Java", "Python", "JavaScript", "Excel"],
@@ -380,7 +380,7 @@ const Members: React.FC = () => {
 
   // Estatísticas do time
   const teamStats: TeamStat[] = [
-    { number: "20+", label: "Desenvolvedores Talentosos", color: "#65C2CA" },
+    { number: "30+", label: "Desenvolvedores Talentosos", color: "#65C2CA" },
     { number: "5+", label: "Mentores", color: "#010DAD" },
     { number: "5+", label: "Anos de Experiência", color: "#E92BA6" },
     { number: "100%", label: "Dedicação e Paixão", color: "#141414" },

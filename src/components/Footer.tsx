@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: '#', label: 'GitHub' },
+    { icon: <Github className="h-5 w-5" />, href: 'https://github.com/softwarehouseundb', label: 'GitHub' },
     { icon: <Linkedin className="h-5 w-5" />, href: 'https://www.linkedin.com/company/software-house-undb/', label: 'LinkedIn' },
     { icon: <Instagram className="h-5 w-5" />, href: 'https://www.instagram.com/softwarehouseundb/', label: 'Instagram' },
   ];
@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
                     href="mailto:softwarehouse@undb.edu.br"
                     className="text-gray-300 hover:text-white transition-colors"
                   >
-                    softwarehouse@undb.edu.br
+                    software.house@undb.edu.br
                   </a>
                 </div>
               </div>
@@ -122,7 +122,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 UNDB Software House. Todos os direitos reservados. 
+              © 2025 Software House UNDB. Todos os direitos reservados. 
             </p>
             <p className="text-gray-500 text-sm mt-4 md:mt-0">
               Desenvolvido com ❤️ pela equipe da Software House
