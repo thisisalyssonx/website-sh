@@ -24,6 +24,7 @@ import eduardaHelenaImg from "../assets/members/eduardahelena.jpg";
 import ellenMonroeImg from "../assets/members/ellenmonroe.jpg";
 import emylleMoraesImg from "../assets/members/emyllemoraes.jpg";
 import joberthEmanoelImg from "../assets/members/joberthemanoel.jpg";
+import joseHenriqueImg from "../assets/members/josehenrique.jpg";
 import julianaSousaImg from "../assets/members/julianasousa.jpg";
 import lucasGomesImg from "../assets/members/lucasgomes.jpg";
 import lucianoBeltraoImg from "../assets/members/lucianobeltrão.jpg";
@@ -247,7 +248,18 @@ const Members: React.FC = () => {
       github: "https://github.com/JoberthCastro",
       linkedin: "http://www.linkedin.com/in/joberth-castro-013840252",
     },
-
+    {
+      id: 26,
+      name: "José Henrique Jacinto Rocha da Silva",
+      role: "Engenharia de Software · Desenvolvimento Full-Stack · Back-End e Front-End",
+      image: joseHenriqueImg, // <- Lembre-se de definir esta variável para a imagem
+      bio: "Sou Desenvolvedor Full-Stack com experiência no desenvolvimento de aplicações web modernas, seguras e escaláveis. Atuo tanto no front-end, criando interfaces responsivas e de alta performance, quanto no back-end, com foco em APIs RESTful e integração com bancos de dados relacionais. Tenho vivência em projetos corporativos e governamentais, sempre priorizando a clareza, acessibilidade e a melhor experiência para o usuário.",
+      location: "São Luís, MA",
+      email: "jhenriquesl@outlook.com",
+      skills: ["Java (Spring Boot)", "JavaScript (React.js, Node.js)", "PHP/MySQL"],
+      github: "https://github.com/Joserem",
+      linkedin: "https://www.linkedin.com/in/jos%C3%A9-henrique-silva-48942526a/",
+    },
     {
       id: 6,
       name: "Juliana Sousa Fernandes",
