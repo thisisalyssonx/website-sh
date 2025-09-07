@@ -103,7 +103,7 @@ const Members: React.FC = () => {
     {
       id: 21,
       name: "Amanda Carvalho de Souza",
-      role: "Engenharia de Software | Inovação | Gestão de Negócios",
+      role: "Inovação | Gestão de Negócios",
       image: amandaCarvalhoImg,
       bio: "Engenheira de software com experiência em inovação e gestão de projetos de tecnologia, atuando com metodologias ágeis para apoiar a transformação digital de organizações; cursando MBA em Gestão de Negócios e focada em estratégias inovadoras e sustentáveis.",
       location: "São Luís, MA",
@@ -251,7 +251,7 @@ const Members: React.FC = () => {
     {
       id: 26,
       name: "José Henrique Jacinto Rocha da Silva",
-      role: "Engenharia de Software · Desenvolvimento Full-Stack · Back-End e Front-End",
+      role: "Desenvolvimento Full-Stack · Back-End e Front-End",
       image: joseHenriqueImg, // <- Lembre-se de definir esta variável para a imagem
       bio: "Desenvolvedor Full-Stack com experiência em aplicações web modernas, seguras e escaláveis, atuando em front-end de alta performance e back-end robusto com APIs RESTful e integração a bancos relacionais.",
       location: "São Luís, MA",
