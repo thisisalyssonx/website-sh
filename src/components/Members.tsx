@@ -105,7 +105,7 @@ const Members: React.FC = () => {
       name: "Amanda Carvalho de Souza",
       role: "Engenharia de Software | Inovação | Gestão de Negócios",
       image: amandaCarvalhoImg,
-      bio: "Sou engenheira de software com experiência em inovação e gestão de projetos de tecnologia. Atuo com metodologias ágeis e ferramentas de inovação, apoiando a transformação digital de organizações públicas e privadas. Atualmente curso MBA em Gestão de Negócios, ampliando minha atuação no desenvolvimento de estratégias inovadoras e sustentáveis.",
+      bio: "Engenheira de software com experiência em inovação e gestão de projetos de tecnologia, atuando com metodologias ágeis para apoiar a transformação digital de organizações; cursando MBA em Gestão de Negócios e focada em estratégias inovadoras e sustentáveis.",
       location: "São Luís, MA",
       email: "Souza.amandacv@gmail.com",
       skills: ["Metodologias Ágeis (Scrum, Kanban)", "Design Thinking & Lean Inception", "Gestão por Processos e Inovação"],
@@ -253,7 +253,7 @@ const Members: React.FC = () => {
       name: "José Henrique Jacinto Rocha da Silva",
       role: "Engenharia de Software · Desenvolvimento Full-Stack · Back-End e Front-End",
       image: joseHenriqueImg, // <- Lembre-se de definir esta variável para a imagem
-      bio: "Sou Desenvolvedor Full-Stack com experiência no desenvolvimento de aplicações web modernas, seguras e escaláveis. Atuo tanto no front-end, criando interfaces responsivas e de alta performance, quanto no back-end, com foco em APIs RESTful e integração com bancos de dados relacionais. Tenho vivência em projetos corporativos e governamentais, sempre priorizando a clareza, acessibilidade e a melhor experiência para o usuário.",
+      bio: "Desenvolvedor Full-Stack com experiência em aplicações web modernas, seguras e escaláveis, atuando em front-end de alta performance e back-end robusto com APIs RESTful e integração a bancos relacionais.",
       location: "São Luís, MA",
       email: "jhenriquesl@outlook.com",
       skills: ["Java (Spring Boot)", "JavaScript (React.js, Node.js)", "PHP/MySQL"],
