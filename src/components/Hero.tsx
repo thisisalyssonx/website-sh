@@ -88,6 +88,8 @@ const Hero: React.FC = () => {
           </button>
         </div>
       </div>
+      
+      {/* comentario aleatorio */}
 
       <style>{`
         @keyframes fade-in {
