@@ -12,7 +12,7 @@ import { useScrollReveal } from "../hooks/useScrollReveal";
 // Imports organizados em ordem alfabética
 import allysonPiresImg from "../assets/members/alyssonoliveirapires.jpg";
 import alyssonRodriguesImg from "../assets/members/alyssonrodrigues.jpg";
-import amandaSouzaImg from "../assets/members/amandasouza.jpg";
+import amandaCarvalhoImg from "../assets/members/amandacarvalho.jpg";
 import anaVitoriaImg from "../assets/members/anavitoria.jpg";
 import arthurGuerraImg from "../assets/members/arthurguerra.jpg";
 import augustoCesarImg from "../assets/members/augustocesar.jpg";
@@ -104,7 +104,7 @@ const Members: React.FC = () => {
       id: 21,
       name: "Amanda Carvalho de Souza",
       role: "Engenharia de Software | Inovação | Gestão de Negócios",
-      image: amandaSouzaImg, // <- Lembre-se de definir esta variável para a imagem
+      image: amandaCarvalhoImg,
       bio: "Sou engenheira de software com experiência em inovação e gestão de projetos de tecnologia. Atuo com metodologias ágeis e ferramentas de inovação, apoiando a transformação digital de organizações públicas e privadas. Atualmente curso MBA em Gestão de Negócios, ampliando minha atuação no desenvolvimento de estratégias inovadoras e sustentáveis.",
       location: "São Luís, MA",
       email: "Souza.amandacv@gmail.com",
