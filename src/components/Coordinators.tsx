@@ -5,7 +5,7 @@ import { Linkedin, Mail } from 'lucide-react';
 
 // Importe as imagens locais dos coordenadores
 import rodrigoAlmeidaImg from '../assets/coordinators/rodrigo.jpg';
-import felipeImg from '../assets/coordinators/felipe.jpg';
+import felipeImg from '../assets/coordinators/felipe.jpeg';
 
 interface Coordinator {
   name: string;
