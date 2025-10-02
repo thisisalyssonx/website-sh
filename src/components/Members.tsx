@@ -30,6 +30,7 @@ import lucasGomesImg from "../assets/members/lucasgomes.jpg";
 import lucianoBeltraoImg from "../assets/members/lucianobeltrão.jpg";
 import matheusBarrosImg from "../assets/members/matheusfernandes.jpg";
 import mateusVerissimoImg from "../assets/members/mateusverissimo.jpg";
+import patrickCastroMendesImg from "../assets/members/patrickcastromendes.jpg";
 import pauloSergioImg from "../assets/members/paulosergiocosta.jpg";
 import pedroVelosoImg from "../assets/members/pedrovictorsantosveloso.jpg";
 import rafaelSilvaImg from "../assets/members/rafaelsousa.jpg";
@@ -252,7 +253,7 @@ const Members: React.FC = () => {
       id: 26,
       name: "José Henrique Jacinto Rocha da Silva",
       role: "Desenvolvimento Full-Stack · Back-End e Front-End",
-      image: joseHenriqueImg, // <- Lembre-se de definir esta variável para a imagem
+      image: joseHenriqueImg, 
       bio: "Desenvolvedor Full-Stack com experiência em aplicações web modernas, seguras e escaláveis, atuando em front-end de alta performance e back-end robusto com APIs RESTful e integração a bancos relacionais.",
       location: "São Luís, MA",
       email: "jhenriquesl@outlook.com",
@@ -324,7 +325,18 @@ const Members: React.FC = () => {
       github: "http://github.com/mateusverissimo",
       linkedin: "https://www.linkedin.com/in/mateusverissimoc",
     },
-
+    {
+      id: 27,
+      name: "Patrick Castro Mendes Lustosa Souza",
+      role: "Desenvolvedor Front-End",
+      image: patrickCastroMendesImg,
+      bio: "Desenvolvedor Front-End com habilidades em React Native, CSS, HTML e JavaScript.",
+      location: "São Luís, MA",
+      email: "patricklustos01@gmail.com",
+      skills: ["React Native", "CSS", "HTML", "JS"],
+      github: "https://github.com/LustosaDev",
+      linkedin: "https://www.linkedin.com/in/patrick-lustosa-b5678a210",
+    },
     {
       id: 14,
       name: "Paulo Sérgio Costa",
